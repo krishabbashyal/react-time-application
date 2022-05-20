@@ -10,7 +10,7 @@ const Form = (props) => {
 
   const submitHandler = (event) => {
     event.preventDefault();
-    console.log(timeSaid);
+    props.setReceivedData(timeSaid);
     setTimeSaid("");
   };
 
@@ -19,7 +19,7 @@ const Form = (props) => {
       <div className="form-content">
         <div className="card">
           <form onSubmit={submitHandler}>
-            <label>Enter time in mins </label>
+            <label>Enter original time prediction in minutes </label>
             <input
               type="number"
               min="1"
