@@ -1,0 +1,27 @@
+.form-content {
+  text-align: center;
+  padding: 2%;
+  color: #be9e32;
+
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  border: 2px solid #be9e32;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+button {
+  background-color: #be9e32;
+  border: none;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 15px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+}

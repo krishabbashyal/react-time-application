@@ -2,7 +2,6 @@
 
 * {
   box-sizing: border-box;
-  color: white;
 }
 
 html {
@@ -11,5 +10,5 @@ html {
 
 body {
   margin: 0;
-  background-color: #77bfe2;
+  background-color: #ffffff;
 }
