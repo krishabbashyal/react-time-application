@@ -10,7 +10,7 @@ const Form = (props) => {
 
   const submitHandler = (event) => {
     event.preventDefault();
-    props.setReceivedData(timeSaid);
+    props.dataCollect(timeSaid);
     setTimeSaid("");
   };
 

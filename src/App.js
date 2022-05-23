@@ -9,8 +9,8 @@ function App() {
   return (
     <div>
       <Header />
-      <Form setReceivedData={setReceivedData} />
-      <Final receivedData={receivedData} />
+      <Form dataCollect={setReceivedData} />
+      <Final data={receivedData} />
     </div>
   );
 }

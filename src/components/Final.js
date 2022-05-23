@@ -1,16 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Final.css";
 
 const Final = (props) => {
-  let data = props.receivedData;
-  console.log(`This is the data: ${data}`);
-  const [finalValue, setFinalValue] = useState(
-    parseInt(props.receivedData) * Math.random()
-  );
-  if (props === "iwantedtheerrortobegone") {
-    setFinalValue(parseInt(props.receivedData) * Math.random());
-    return { finalValue };
-  }
+  let data = props.data;
+
   if (data) {
     return (
       <div className="final-content">
